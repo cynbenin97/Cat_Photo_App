@@ -1,0 +1,43 @@
+p {
+  font-family: monospace, sans-serif;
+}
+
+h2 {
+  font-family: Lobster;
+}
+
+.smaller-image{
+  width:100px;
+}
+.thick-red-border {
+  border-color: red;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 2px;
+  /*you can also give the radius as a percentage, 50% shapes the image into a circle*/
+}
+
+.silver-background {
+  background-color: silver;
+  width:50%;
+}
+.content-text {
+  font-family: monospace;
+  font-size:20px;
+}
+
+.form-text {
+  font-family: Helvetica;
+}
+
+#lists-div {
+  padding: 2px 2px 2px 20px;
+  margin:10px 0px 10px 0px;
+  /*using the clockwise notation to change padding/margin values*/
+}
+
+[type='checkbox'] {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /*select attributes to change at once*/
+}
